@@ -1,0 +1,54 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "Interiors.tsx": {
+            "scaleInDock": 1
+        },
+        "Room Builder.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Room_Builder_32x32.tsx": {
+            "scaleInDock": 1
+        },
+        "example_map.tmx": {
+            "scale": 2.0385416666666667,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 239.8773633111906,
+                "y": 160.40878896269803
+            }
+        },
+        "wip map.tmx": {
+            "scale": 0.764453125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 639.6729688298415,
+                "y": 202.1052631578947
+            }
+        }
+    },
+    "last.imagePath": "/home/agsheeran/Development/_rust/cis4000_capstone-spring2024/assets/modern_interiors/Interiors_free/16x16",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "openFiles": [
+    ],
+    "project": "example.tiled-project",
+    "recentFiles": [
+        "example_map.tmx",
+        "wip map.tmx",
+        "Room Builder.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
