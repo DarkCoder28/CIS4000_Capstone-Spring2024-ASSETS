@@ -22,7 +22,7 @@
     "insides": [
         {
             "loc_id": "SaintBernards",
-            "tilemap_path": "st_bernards.json",
+            "tilemap_path": "st_bernards.tmj",
             "tilemap_texture_mappings": [
                 ["Room_Builder_16x16.png", "Room_Builder_16x16.png"],
                 ["Interiors_16x16.png", "Interiors_16x16.png"]
@@ -30,7 +30,7 @@
         },
         {
             "loc_id": "Library",
-            "tilemap_path": "st_bernards.json",
+            "tilemap_path": "st_bernards.tmj",
             "tilemap_texture_mappings": [
                 ["Room_Builder_16x16.png", "Room_Builder_16x16.png"],
                 ["Interiors_16x16.png", "Interiors_16x16.png"]
@@ -38,7 +38,7 @@
         },
         {
             "loc_id": "UniversityHall",
-            "tilemap_path": "st_bernards.json",
+            "tilemap_path": "st_bernards.tmj",
             "tilemap_texture_mappings": [
                 ["Room_Builder_16x16.png", "Room_Builder_16x16.png"],
                 ["Interiors_16x16.png", "Interiors_16x16.png"]
