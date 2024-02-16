@@ -96,10 +96,6 @@
          "tilecount":17024,
          "tileheight":16,
          "tilewidth":16
-        }, 
-        {
-         "firstgid":25309,
-         "source":"Room Builder.tsx"
         }],
  "tilewidth":16,
  "type":"map",
