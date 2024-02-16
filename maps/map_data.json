@@ -1,0 +1,66 @@
+{
+    "outside": [
+        {
+            "loc_id": "SaintBernards",
+            "tl_corner": {
+                "x": -0.45,
+                "y": -0.1
+            },
+            "br_corner": {
+                "x": -0.25,
+                "y": 0.1
+            },
+            "label": "St. Bernard's"
+        },
+        {
+            "loc_id": "Library",
+            "tl_corner": {
+                "x": -0.094033616,
+                "y": -0.43883497
+            },
+            "br_corner": {
+                "x": 0.14495799,
+                "y": -0.16796117
+            },
+            "label": "Library"
+        },
+        {
+            "loc_id": "UniversityHall",
+            "tl_corner": {
+                "x": 0.13596639,
+                "y": -0.11941747
+            },
+            "br_corner": {
+                "x": 0.34817647,
+                "y": 0.36407766
+            },
+            "label": "University Hall"
+        }
+    ],
+    "insides": [
+        {
+            "loc_id": "SaintBernards",
+            "tilemap_path": "st_bernards.json",
+            "tilemap_texture_mappings": [
+                ["Room_Builder_16x16.png", "Room_Builder_16x16.png"],
+                ["Interiors_16x16.png", "Interiors_16x16.png"]
+            ]
+        },
+        {
+            "loc_id": "Library",
+            "tilemap_path": "st_bernards.json",
+            "tilemap_texture_mappings": [
+                ["Room_Builder_16x16.png", "Room_Builder_16x16.png"],
+                ["Interiors_16x16.png", "Interiors_16x16.png"]
+            ]
+        },
+        {
+            "loc_id": "UniversityHall",
+            "tilemap_path": "st_bernards.json",
+            "tilemap_texture_mappings": [
+                ["Room_Builder_16x16.png", "Room_Builder_16x16.png"],
+                ["Interiors_16x16.png", "Interiors_16x16.png"]
+            ]
+        }
+    ]
+}
