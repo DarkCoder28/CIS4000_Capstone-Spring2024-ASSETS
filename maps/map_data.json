@@ -22,7 +22,7 @@
     "insides": [
         {
             "loc_id": "SaintBernards",
-            "tilemap_path": "st_bernards.tmj",
+            "tilemap_path": "wip_map_16x16.tmj",
             "tilemap_texture_mappings": [
                 ["Room_Builder_16x16.png", "Room_Builder_16x16.png"],
                 ["Interiors_16x16.png", "Interiors_16x16.png"]
