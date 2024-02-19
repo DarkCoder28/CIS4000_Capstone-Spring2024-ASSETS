@@ -1,6 +1,6 @@
 { "compressionlevel":-1,
  "height":48,
- "infinite":true,
+ "infinite":false,
  "layers":[
         {
          "chunks":[
@@ -572,7 +572,7 @@
          "imageheight":1744,
          "imagewidth":1216,
          "margin":0,
-         "name":"Room_Builder_16x16",
+         "name":"Room_Builder",
          "spacing":0,
          "tilecount":8284,
          "tileheight":16,
@@ -588,19 +588,6 @@
          "name":"interiors",
          "spacing":0,
          "tilecount":17024,
-         "tileheight":16,
-         "tilewidth":16
-        }, 
-        {
-         "columns":76,
-         "firstgid":25309,
-         "image":"Room_Builder_16x16.png",
-         "imageheight":1744,
-         "imagewidth":1216,
-         "margin":0,
-         "name":"Room_Builder",
-         "spacing":0,
-         "tilecount":8284,
          "tileheight":16,
          "tilewidth":16
         }],
