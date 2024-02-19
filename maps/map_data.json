@@ -26,7 +26,8 @@
             "tilemap_texture_mappings": [
                 ["Room_Builder_16x16.png", "Room_Builder_16x16.png"],
                 ["Interiors_16x16.png", "Interiors_16x16.png"]
-            ]
+            ],
+            "spawn_location": [14,17]
         },
         {
             "loc_id": "Library",
@@ -34,7 +35,8 @@
             "tilemap_texture_mappings": [
                 ["Room_Builder_16x16.png", "Room_Builder_16x16.png"],
                 ["Interiors_16x16.png", "Interiors_16x16.png"]
-            ]
+            ],
+            "spawn_location": [14,17]
         },
         {
             "loc_id": "UniversityHall",
@@ -42,7 +44,8 @@
             "tilemap_texture_mappings": [
                 ["Room_Builder_16x16.png", "Room_Builder_16x16.png"],
                 ["Interiors_16x16.png", "Interiors_16x16.png"]
-            ]
+            ],
+            "spawn_location": [14,17]
         }
     ]
 }
