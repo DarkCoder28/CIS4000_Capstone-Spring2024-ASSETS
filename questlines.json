@@ -1,7 +1,6 @@
-{
-	"init": {
+[
+	{
 		"_note": "This is the default quest assigned to all players, it should trigger the start of the first questline",
-		"next": "cindy",
 		"quests": [
 			{
 				"speaker": "???",
@@ -19,8 +18,7 @@
 			}
 		]
 	},
-	"cindy": {
-		"next": "complete",
+	{
 		"quests": [
 			{
 				"speaker": "Cindy",
@@ -52,4 +50,4 @@
 			}
 		]
 	}
-}
+]
