@@ -1,0 +1,55 @@
+{
+	"init": {
+		"_note": "This is the default quest assigned to all players, it should trigger the start of the first questline",
+		"next": "cindy",
+		"quests": [
+			{
+				"speaker": "???",
+				"dialog": "What happened???"
+			},
+			{	
+				"quest_id": 1,
+				"quest_name": "Meet Cindy",
+				"speaker": "Gamemaster",
+				"dialog": "Go see cindy.",
+				"completion": {
+					"type": "interact",
+					"who": "cindy"
+				}
+			}
+		]
+	},
+	"cindy": {
+		"next": "complete",
+		"quests": [
+			{
+				"speaker": "Cindy",
+				"dialog": "Hi Griffin!"
+			},
+			{
+				"speaker": "Griffin",
+				"dialog": "Nice to meet you."
+			},
+			{
+				"quest_id": 2,
+				"quest_name": "Find the robot dog",
+				"speaker": "Cindy",
+				"dialog": "Go fix the robot dog",
+				"completion": {
+					"type": "interact",
+					"who": "robot_dog"
+				}
+			},
+			{
+				"quest_id": 3,
+				"quest_name": "Find the battery",
+				"speaker": "Griffin",
+				"dialog": "Looks like its missing the battery...",
+				"completion": {
+					"type": "interact",
+					"who": "robot_dog_battery"
+				}
+			}
+		]
+	}
+}
