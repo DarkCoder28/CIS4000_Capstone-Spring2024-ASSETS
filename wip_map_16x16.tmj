@@ -96,7 +96,7 @@
         {
          "columns":76,
          "firstgid":1,
-         "image":"CIS4000_Capstone-Spring2024-ASSETS\/maps\/Room_Builder_16x16.png",
+         "image":"Room_Builder_16x16.png",
          "imageheight":1744,
          "imagewidth":1216,
          "margin":0,
@@ -109,7 +109,7 @@
         {
          "columns":16,
          "firstgid":8285,
-         "image":"CIS4000_Capstone-Spring2024-ASSETS\/maps\/Interiors_16x16.png",
+         "image":"Interiors_16x16.png",
          "imageheight":17024,
          "imagewidth":256,
          "margin":0,
