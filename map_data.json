@@ -30,7 +30,7 @@
         },
         {
             "loc_id": "Library",
-            "tilemap_path": "wip_map_16x16.tmj",
+            "tilemap_path": "library.tmj",
             "tilemap_texture_mappings": [
                 ["combined.png", "combined.png"]
             ],
@@ -38,7 +38,7 @@
         },
         {
             "loc_id": "UniversityHall",
-            "tilemap_path": "wip_map_16x16.tmj",
+            "tilemap_path": "st_bernards.tmj",
             "tilemap_texture_mappings": [
                 ["combined.png", "combined.png"]
             ],
