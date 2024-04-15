@@ -2,6 +2,7 @@
 {
 "object_id": "robot_dog",
 "loc_id": "SaintBernards",
-"position": [20,20]
+"position": [20,20],
+"relevant_quest_ids": [2,3]
 }
 ]
