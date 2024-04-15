@@ -2,7 +2,7 @@
 {
 "object_id": "robot_dog",
 "loc_id": "SaintBernards",
-"sprite": {"sprite_map": "Room_Builder_16x16.png", "tile_id": 2328},
+"sprite": {"sprite_map": "Room_Builder_16x16.png", "tile_id": 2328, "width": 1, "height": 1},
 "position": [20,20],
 "relevant_quest_ids": [2,3]
 }
