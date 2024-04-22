@@ -49,5 +49,38 @@
 				}
 			}
 		]
+	},
+	{
+		"_note": "Cindy's Questline",
+		"quests": [
+			{
+				"speaker": "Cindy",
+				"dialog": "Hi <name>, ......."
+			},
+			{
+				"speaker": "<name>",
+				"dialog": "Wow, there is...."
+			},
+			{
+				"speaker": "<name>",
+				"dialog": "Looks like the robot dog is missing the battery...",
+				"quest_id": 1,
+				"quest_name": "Find the robot dog's battery",
+				"completion": {
+					"type": "interact",
+					"who": "robot_dog_battery"
+				}
+			},
+			{
+				"speaker": "<name>",
+				"dialog": "I found the battery! I should go take it to Cindy...",
+				"quest_id": 2,
+				"quest_name": "Take the battery to Cindy",
+				"completion": {
+					"type": "interact",
+					"who": "cindy"
+				}
+			}
+		]
 	}
 ]

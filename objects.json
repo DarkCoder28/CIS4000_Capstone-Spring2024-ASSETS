@@ -1,9 +1,12 @@
 [
-{
-"object_id": "robot_dog",
-"loc_id": "SaintBernards",
-"sprite": {"sprite_map": "Room_Builder", "tile_id": 1294},
-"position": [20,20],
-"relevant_quest_ids": [1,2,3]
-}
+	{
+		"object_id": "robot_dog",
+		"loc_id": "SaintBernards",
+		"sprite": {
+			"sprite_map": "Room_Builder", 
+			"tile_id": 1294
+		},
+		"position": [20,20],
+		"relevant_quest_ids": [1,2,3]
+	}
 ]
