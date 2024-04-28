@@ -16,7 +16,7 @@
 			"sprite_map": "Room_Builder",
 			"tile_id": 1294
 		},
-		"position": [131, 11],
+		"position": [35, 3],
 		"relevant_quest_ids": [1,2,3]
 	}
 ]
