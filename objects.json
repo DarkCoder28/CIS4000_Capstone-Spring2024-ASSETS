@@ -3,8 +3,8 @@
 		"object_id": "robot_dog",
 		"loc_id": "SaintBernards",
 		"sprite": {
-			"sprite_map": "Room_Builder", 
-			"tile_id": 1294
+			"sprite_map": "objects", 
+			"tile_id": 1
 		},
 		"position": [20,20],
 		"relevant_quest_ids": [1,2,3]
@@ -13,8 +13,8 @@
 		"object_id": "cindy",
 		"loc_id": "SaintBernards",
 		"sprite": {
-			"sprite_map": "Room_Builder",
-			"tile_id": 1294
+			"sprite_map": "objects",
+			"tile_id": 1
 		},
 		"position": [35, 3],
 		"relevant_quest_ids": [1,2,3]
