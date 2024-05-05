@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "_note": "Cindy's Questline",
     "quests": [
       {
@@ -53,6 +54,7 @@
     ]
   },
   {
+    "id": 10,
     "_note": "Howard's Questline",
     "quests": [
       {
@@ -106,6 +108,7 @@
     ]
   },
   {
+    "id": 20,
     "_note": "Cindy's Questline",
     "quests": [
       {
@@ -159,6 +162,7 @@
     ]
   },
   {
+    "id": 30,
     "_note": "Greg's Questline",
     "quests": [
       {
@@ -199,6 +203,7 @@
     ]
   },
   {
+    "id": 40,
     "_note": "Greg's Questline",
     "quests": [
       {
@@ -246,6 +251,7 @@
     ]
   },
   {
+    "id": 50,
     "_note": "Cindy's Questline",
     "quests": [
       {
@@ -297,6 +303,7 @@
     ]
   },
   {
+    "id": 60,
     "_note": "Cindy's Questline",
     "quests": [
       {
