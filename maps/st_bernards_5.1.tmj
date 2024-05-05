@@ -193,7 +193,7 @@
         {
          "columns":16,
          "firstgid":8285,
-         "image":"..\/..\/Desktop\/dependent interiors\/5_Classroom_and_library_16x16.png",
+         "image":"5_Classroom_and_library_16x16.png",
          "imageheight":544,
          "imagewidth":256,
          "margin":0,
@@ -206,7 +206,7 @@
         {
          "columns":16,
          "firstgid":8829,
-         "image":"..\/..\/Desktop\/dependent interiors\/1_Generic_16x16.png",
+         "image":"1_Generic_16x16.png",
          "imageheight":1248,
          "imagewidth":256,
          "margin":0,
@@ -219,7 +219,7 @@
         {
          "columns":16,
          "firstgid":10077,
-         "image":"..\/..\/Desktop\/dependent interiors\/12_Kitchen_16x16.png",
+         "image":"12_Kitchen_16x16.png",
          "imageheight":784,
          "imagewidth":256,
          "margin":0,
@@ -232,7 +232,7 @@
         {
          "columns":16,
          "firstgid":10861,
-         "image":"..\/..\/Desktop\/dependent interiors\/14_Basement_16x16.png",
+         "image":"14_Basement_16x16.png",
          "imageheight":800,
          "imagewidth":256,
          "margin":0,
@@ -243,8 +243,15 @@
          "tilewidth":16
         }, 
         {
-         "firstgid":11661,
-         "source":"ETC\/Grocery_store_16x16.tsx"
+         "columns":16,
+         "firstgid":11959,
+         "margin":0,
+         "name":"Grocery_store_16x16",
+         "image":"16_Grocery_store_16x16.png",
+         "spacing":0,
+         "tilecount":0,
+         "tileheight":16,
+         "tilewidth":16
         }],
  "tilewidth":16,
  "type":"map",

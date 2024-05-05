@@ -193,12 +193,30 @@
  "tileheight":16,
  "tilesets":[
         {
+         "columns":76,
          "firstgid":1,
-         "source":"..\/Room_Builder_16x16.tsx"
+         "image":"Room_Builder_16x16.png",
+         "imageheight":1744,
+         "imagewidth":1216,
+         "margin":0,
+         "name":"Room_Builder_16x16",
+         "spacing":0,
+         "tilecount":8284,
+         "tileheight":16,
+         "tilewidth":16
         }, 
         {
+         "columns":16,
          "firstgid":8285,
-         "source":"dependent interiors\/14_Basement_16x16.tsx"
+         "image":"14_Basement_16x16.png",
+         "imageheight":800,
+         "imagewidth":256,
+         "margin":0,
+         "name":"14_Basement_16x16",
+         "spacing":0,
+         "tilecount":800,
+         "tileheight":16,
+         "tilewidth":16
         }],
  "tilewidth":16,
  "type":"map",
