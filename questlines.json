@@ -1,86 +1,320 @@
 [
-	{
-		"_note": "This is the default quest assigned to all players, it should trigger the start of the first questline",
-		"quests": [
-			{
-				"speaker": "???",
-				"dialog": "What happened???"
-			},
-			{	
-				"quest_id": 1,
-				"quest_name": "Meet Cindy",
-				"speaker": "Gamemaster",
-				"dialog": "Go see cindy.",
-				"completion": {
-					"type": "interact",
-					"who": "cindy"
-				}
-			}
-		]
-	},
-	{
-		"quests": [
-			{
-				"speaker": "Cindy",
-				"dialog": "Hi Griffin!"
-			},
-			{
-				"speaker": "Griffin",
-				"dialog": "Nice to meet you."
-			},
-			{
-				"quest_id": 2,
-				"quest_name": "Find the robot dog",
-				"speaker": "Cindy",
-				"dialog": "Go fix the robot dog",
-				"completion": {
-					"type": "interact",
-					"who": "robot_dog"
-				}
-			},
-			{
-				"quest_id": 3,
-				"quest_name": "Find the battery",
-				"speaker": "Griffin",
-				"dialog": "Looks like its missing the battery...",
-				"completion": {
-					"type": "interact",
-					"who": "robot_dog_battery"
-				}
-			}
-		]
-	},
-	{
-		"_note": "Cindy's Questline",
-		"quests": [
-			{
-				"speaker": "Cindy",
-				"dialog": "Hi <name>, ......."
-			},
-			{
-				"speaker": "<name>",
-				"dialog": "Wow, there is...."
-			},
-			{
-				"speaker": "<name>",
-				"dialog": "Looks like the robot dog is missing the battery...",
-				"quest_id": 1,
-				"quest_name": "Find the robot dog's battery",
-				"completion": {
-					"type": "interact",
-					"who": "robot_dog_battery"
-				}
-			},
-			{
-				"speaker": "<name>",
-				"dialog": "I found the battery! I should go take it to Cindy...",
-				"quest_id": 2,
-				"quest_name": "Take the battery to Cindy",
-				"completion": {
-					"type": "interact",
-					"who": "cindy"
-				}
-			}
-		]
-	}
+  {
+    "_note": "Cindy's Questline",
+    "quests": [
+      {
+        "speaker": "Cindy",
+        "dialog": "Hi <name>, I'm Cindy, I'm the head of the Robotics Research Lab, and I have a quest for you. I've recently acquired a new AI module for our research project, but it needs a power source to get started. There's a specialized battery located down the hall in the equipment storage room. Retrieve the battery and bring it back to me so we can activate the AI module."
+      },
+      {
+        "speaker": "<name>",
+        "dialog": "Sure, Cindy! I'll head over to the equipment storage room right away and get the battery for you."
+      },
+      {
+        "speaker": "<name>",
+        "dialog": "Wow, there's a lot of stuff in here. Now, where could that specialized battery be?",
+        "quest_id": 1,
+        "quest_name": "Find the robot dog's battery",
+        "completion": {
+          "type": "interact",
+          "who": "robot_dog_battery"
+        }
+      },
+      {
+        "speaker": "<name>",
+        "dialog": "I found the battery! I should go take it to Cindy...",
+        "quest_id": 2,
+        "quest_name": "Take the battery to Cindy",
+        "completion": {
+          "type": "interact",
+          "who": "cindy"
+        }
+      },
+      {
+        "speaker": "Cindy",
+        "dialog": "Excellent, <name>! Let's install it and see how our new AI module performs. Thank you for your help!",
+        "quest_id": 3,
+        "quest_name": "Cindy Receives the Battery",
+        "completion": {
+          "type": "interact",
+          "who": "install_battery"
+        }
+      }
+    ]
+  },
+  {
+    "_note": "Howard's Questline",
+    "quests": [
+      {
+        "speaker": "Howard",
+        "dialog": "<name>, I need your assistance. We're in a bit of a bind. The thumb drive containing the program we've been working on seems to have gone missing. I need you to retrieve it from the laboratory storage room as soon as possible."
+      },
+      {
+        "speaker": "<name>",
+        "dialog": "Of course, Howard! I'll head to the laboratory storage room right away and find the thumb drive for you."
+      },
+      {
+        "speaker": "<name>",
+        "dialog": "Wow, I never realized how much I enjoy being the go-to person for help until Howard asked me to find that thumb drive.",
+        "quest_id": 4,
+        "quest_name": "Find The Thumb Drive",
+        "completion": {
+          "type": "interact",
+          "who": "Thumb_Drive"
+        }
+      },
+      {
+        "speaker": "<name>",
+        "dialog": "Found it! I'll bring it to you immediately.",
+        "quest_id": 5,
+        "quest_name": "Take the thumb drive to Howard",
+        "completion": {
+          "type": "interact",
+          "who": "Howard"
+        }
+      },
+      {
+        "speaker": "Howard",
+        "dialog": "Excellent work, <name>! This program is crucial for the robot dog’s programming. Thank you for your quick action in retrieving it.",
+        "quest_id": 6,
+        "quest_name": "Howard Receives the Thumb Drive",
+        "completion": {
+          "type": "interact",
+          "who": "install_ThumbDrive"
+        }
+      }
+    ]
+  },
+  {
+    "_note": "Cindy's Questline",
+    "quests": [
+      {
+        "speaker": "Cindy",
+        "dialog": "<name>!, I need your help controlling the dog, it’s not responding to commands! Quickly, I need you to retrieve a translation book from the library. The directions are in Mandarin."
+      },
+      {
+        "speaker": "<name>",
+        "dialog": "Alright, Cindy! I'll head to the library right away and find the translation book for you."
+      },
+      {
+        "speaker": "<name>",
+        "dialog": "Entering the library to find the translation book, I couldn't help but wonder: amidst the rows of shelves, where would I find it?",
+        "quest_id": 7,
+        "quest_name": "Find the Translation Book",
+        "completion": {
+          "type": "interact",
+          "who": "Translation Book"
+        }
+      },
+      {
+        "speaker": "<name>",
+        "dialog": "Found it! Now, back to Cindy's office.",
+        "quest_id": 8,
+        "quest_name": "Take the Book to Cindy",
+        "completion": {
+          "type": "interact",
+          "who": "cindy"
+        }
+      },
+      {
+        "speaker": "Cindy",
+        "dialog": "Fantastic! You found the book. Give the book to Howard so he can use it to program the robot dog.",
+        "quest_id": 9,
+        "quest_name": "Cindy Receives the Book",
+        "completion": {
+          "type": "interact",
+          "who": "Translate the Code"
+        }
+      }
+    ]
+  },
+  {
+    "_note": "Greg's Questline",
+    "quests": [
+      {
+        "speaker": "Greg",
+        "dialog": " Hey <name>,I'm Greg, a full-time professor for the Computer Science department. I need you to help me build a drone from our Arduino kits. Find four of the parts scattered around the building and bring them to me."
+      },
+      {
+        "speaker": "<name>",
+        "dialog": "Sure thing, Gregg! I'll start searching for the parts right away."
+      },
+      {
+        "speaker": "<name>",
+        "dialog": "where should I start looking for the parts first?",
+        "quest_id": 10,
+        "quest_name": "Find The Four Drone Parts",
+        "completion": {
+          "type": "interact",
+          "who": "Drone_Parts"
+        }
+      },
+      {
+        "speaker": "<name>",
+        "dialog": "I found all the drone parts! I need to take them to Greg ASAP.",
+        "quest_id": 11,
+        "quest_name": "Take Drone Parts To Greg",
+        "completion": {
+          "type": "interact",
+          "who": "Greg"
+        }
+      },
+      {
+        "speaker": "Greg",
+        "dialog": "<name>, Griffin, thanks for your help. Please place the assembled drone on the desk for testing.",
+        "quest_id": 12,
+        "quest_name": "Greg Receives the Drone Parts",
+        "completion": {
+          "type": "interact",
+          "who": "install_drone_parts"
+        }
+      }
+    ]
+  },
+  {
+    "_note": "Greg's Questline",
+    "quests": [
+      {
+        "speaker": "Greg",
+        "dialog": "<name>, I need you're help programming the drone to follow a specific flight path and capture aerial footage of our test site. I'll provide you with the coordinates and flight parameters."
+      },
+      {
+        "speaker": "<name>",
+        "dialog": "Understood, Greg. I'll get started on programming the drone right away."
+      },
+      {
+        "speaker": "<name>",
+        "dialog": "Who would of thought programming would be this hard?",
+        "quest_id": 13,
+        "quest_name": "Program The Drone",
+        "completion": {
+          "type": "interact",
+          "who": "Program_Drone"
+        }
+      },
+      {
+        "speaker": "<name>",
+        "dialog": "It's all set, Greg. The program is uploaded, and the drone is ready for its test flight.",
+        "quest_id": 14,
+        "quest_name": "Talk to Greg",
+        "completion": {
+          "type": "interact",
+          "who": "Greg"
+        }
+      },
+      {
+        "speaker": "Greg",
+        "dialog": "Excellent job, Griffin! The drone is performing exactly as planned. Your programming skills are truly impressive.",
+        "quest_id": 15,
+        "quest_name": "Drone Deployment",
+        "completion": {
+          "type": "interact",
+          "who": "Working_Drone"
+        }
+      }
+    ]
+  },
+  {
+    "_note": "Cindy's Questline",
+    "quests": [
+      {
+        "speaker": "Cindy",
+        "dialog": "<name>, we have a bit of an emergency. My robot dog has somehow managed to run away from the lab. We need to find it quickly before it gets lost. Can you help us?"
+      },
+      {
+        "speaker": "<name>",
+        "dialog": "Of course, Cindy! I'll do everything I can to locate the robot dog. Do you have any idea where it might have gone?"
+      },
+      {
+        "speaker": "Cindy",
+        "dialog": "Not exactly, but I remember seeing it head towards the park earlier. We'll need Greg's drone to help us search the area efficiently.",
+        "quest_id": 16,
+        "quest_name": "Help Find Cindy's Robot Dog",
+        "completion": {
+          "type": "interact",
+          "who": "Cindy_Robot_Dog"
+        }
+      },
+      {
+        "speaker": "<name>",
+        "dialog": "I'll reach out to Greg right away and get the drone ready for the search.",
+        "quest_id": 17,
+        "quest_name": "Talk to Greg",
+        "completion": {
+          "type": "interact",
+          "who": "Greg"
+        }
+      },
+      {
+        "speaker": "Greg",
+        "dialog": "The drone's camera is live. We'll cover as much ground as possible to maximize our chances of finding the robot dog.",
+        "quest_id": 18,
+        "quest_name": "Use the Drone",
+        "completion": {
+          "type": "interact",
+          "who": "Greg"
+        }
+      },
+      {
+        "speaker": "Greg",
+        "dialog": "Excellent job, Griffin! The drone is performing exactly as planned.",
+        "quest_id": 19,
+        "quest_name": "Spot The Dog",
+        "completion": {
+          "type": "interact",
+          "who": "Working_Drone"
+        }
+      },
+      {
+        "speaker": "Cindy",
+        "dialog": "Thank you both so much for your help! I don't know what I would have done without you.",
+        "quest_id": 20,
+        "quest_name": "Drone Deployment",
+        "completion": {
+          "type": "interact",
+          "who": "Working_Drone"
+        }
+      }
+    ]
+  },
+  {
+    "_note": "Cindy's Questline",
+    "quests": [
+      {
+        "speaker": "Cindy",
+        "dialog": "<name>, I need your assistance once again. I've managed to retrieve the robot dog, but it needs some programming adjustments from Howard. Can you take it to him?"
+      },
+      {
+        "speaker": "<name>",
+        "dialog": "Of course, Cindy! I'll make sure the robot dog gets to Howard for the necessary programming tweaks."
+      },
+      {
+        "speaker": "Howard",
+        "dialog": "Perfect timing, Griffin! I'll take care of it right away. Thank you for bringing it over.",
+        "quest_id": 21,
+        "quest_name": "Hand Over Dog",
+        "completion": {
+          "type": "interact",
+          "who": "Program_Dog"
+        }
+      },
+      {
+        "speaker": "Howard",
+        "dialog": "All set, Griffin! The robot dog should be ready to go. Please let Cindy know.",
+        "quest_id": 22,
+        "quest_name": "",
+        "completion": {
+          "type": "interact",
+          "who": "Howard"
+        }
+      },
+      {
+        "speaker": "Cindy",
+        "dialog": "Excellent job <name>, The dog is working properly and can't wait to use it to grab me coffee!",
+        "quest_id": 23,
+        "quest_name": "DogDeployment",
+        "completion": { "type": "interact", "who": "Working_Dog" }
+      }
+    ]
+  }
 ]
