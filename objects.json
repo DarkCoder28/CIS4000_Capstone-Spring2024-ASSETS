@@ -6,7 +6,7 @@
 			"sprite_map": "objects", 
 			"tile_id": 1
 		},
-		"position": [20,20],
+		"position": [10,24],
 		"relevant_quest_ids": [1,2,3]
 	},
 	{
@@ -14,9 +14,89 @@
 		"loc_id": "SaintBernards",
 		"sprite": {
 			"sprite_map": "objects",
-			"tile_id": 1
+			"tile_id": 2
 		},
 		"position": [35, 3],
+		"relevant_quest_ids": [1,2,3]
+	},
+	{
+		"object_id": "howard",
+		"loc_id": "SaintBernards",
+		"sprite": {
+			"sprite_map": "objects",
+			"tile_id": 3
+		},
+		"position": [14, 9],
+		"relevant_quest_ids": [1,2,3]
+	},
+	{
+		"object_id": "greg",
+		"loc_id": "SaintBernards",
+		"sprite": {
+			"sprite_map": "objects",
+			"tile_id": 4
+		},
+		"position": [28, 3],
+		"relevant_quest_ids": [1,2,3]
+	},
+	{
+		"object_id": "robot_dog_battery",
+		"loc_id": "SaintBernards",
+		"sprite": {
+			"sprite_map": "objects",
+			"tile_id": 5
+		},
+		"position": [25, 29],
+		"relevant_quest_ids": [1,2,3]
+	},
+	{
+		"object_id": "thumb_drive",
+		"loc_id": "SaintBernards",
+		"sprite": {
+			"sprite_map": "objects",
+			"tile_id": 6
+		},
+		"position": [1, 11],
+		"relevant_quest_ids": [1,2,3]
+	},
+	{
+		"object_id": "translation_book",
+		"loc_id": "Library",
+		"sprite": {
+			"sprite_map": "objects",
+			"tile_id": 7
+		},
+		"position": [1, 11],
+		"relevant_quest_ids": [1,2,3]
+	},
+	{
+		"object_id": "drone",
+		"loc_id": "SaintBernards",
+		"sprite": {
+			"sprite_map": "objects",
+			"tile_id": 7
+		},
+		"position": [29, 3],
+		"relevant_quest_ids": [1,2,3]
+	},
+	{
+		"object_id": "drone_parts",
+		"loc_id": "SaintBernards",
+		"sprite": {
+			"sprite_map": "objects",
+			"tile_id": 8
+		},
+		"position": [88, 21],
+		"relevant_quest_ids": [1,2,3]
+	},
+	{
+		"object_id": "robot_dog_uhall",
+		"loc_id": "UniversityHall",
+		"sprite": {
+			"sprite_map": "objects", 
+			"tile_id": 1
+		},
+		"position": [10,24],
 		"relevant_quest_ids": [1,2,3]
 	}
 ]
