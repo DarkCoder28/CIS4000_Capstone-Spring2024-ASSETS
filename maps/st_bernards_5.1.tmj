@@ -245,11 +245,26 @@
         {
          "columns":16,
          "firstgid":11959,
+         "image":"16_Grocery_store_16x16.png",
+         "imageheight":1248,
+         "imagewidth":256,
          "margin":0,
          "name":"Grocery_store_16x16",
-         "image":"16_Grocery_store_16x16.png",
          "spacing":0,
-         "tilecount":0,
+         "tilecount":1248,
+         "tileheight":16,
+         "tilewidth":16
+        }, 
+        {
+         "columns":16,
+         "firstgid":13207,
+         "image":"objects.png",
+         "imageheight":16,
+         "imagewidth":256,
+         "margin":0,
+         "name":"objects",
+         "spacing":0,
+         "tilecount":16,
          "tileheight":16,
          "tilewidth":16
         }],

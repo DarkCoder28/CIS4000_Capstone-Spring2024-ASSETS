@@ -217,6 +217,19 @@
          "tilecount":800,
          "tileheight":16,
          "tilewidth":16
+        }, 
+        {
+         "columns":16,
+         "firstgid":9085,
+         "image":"objects.png",
+         "imageheight":16,
+         "imagewidth":256,
+         "margin":0,
+         "name":"objects",
+         "spacing":0,
+         "tilecount":16,
+         "tileheight":16,
+         "tilewidth":16
         }],
  "tilewidth":16,
  "type":"map",
