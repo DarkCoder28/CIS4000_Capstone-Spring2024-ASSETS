@@ -74,7 +74,7 @@
 		"loc_id": "SaintBernards",
 		"sprite": {
 			"sprite_map": "objects",
-			"tile_id": 7
+			"tile_id": 8
 		},
 		"position": [29, 3],
 		"relevant_quest_ids": [1,2,3]
@@ -84,7 +84,7 @@
 		"loc_id": "SaintBernards",
 		"sprite": {
 			"sprite_map": "objects",
-			"tile_id": 8
+			"tile_id": 9
 		},
 		"position": [88, 21],
 		"relevant_quest_ids": [1,2,3]
