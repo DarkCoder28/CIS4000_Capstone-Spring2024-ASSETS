@@ -52,7 +52,7 @@
                 ["14_Basement_16x16.png", "14_Basement_16x16.png"],
 		["objects.png", "objects.png"]
             ],
-            "spawn_location": [14,17]
+            "spawn_location": [24,37]
         }
     ]
 }

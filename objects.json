@@ -96,7 +96,7 @@
 			"sprite_map": "objects", 
 			"tile_id": 1
 		},
-		"position": [10,24],
+		"position": [44,11],
 		"relevant_quest_ids": [1,2,3]
 	}
 ]
