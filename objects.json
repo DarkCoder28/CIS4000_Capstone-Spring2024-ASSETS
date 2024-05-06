@@ -63,7 +63,7 @@
 			"sprite_map": "objects",
 			"tile_id": 7
 		},
-		"position": [1, 11],
+		"position": [48, 6],
 		"relevant_quest_ids": [0,1,2,3,10,11,12,20,21]
 	},
 	{

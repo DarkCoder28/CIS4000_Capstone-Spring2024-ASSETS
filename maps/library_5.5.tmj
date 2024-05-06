@@ -102,7 +102,7 @@
         {
          "columns":76,
          "firstgid":1,
-         "image":"..\/old\/Room_Builder_16x16.png",
+         "image":"Room_Builder_16x16.png",
          "imageheight":1744,
          "imagewidth":1216,
          "margin":0,
@@ -154,13 +154,26 @@
         {
          "columns":16,
          "firstgid":10877,
-         "image":"..\/..\/..\/..\/capstone\/moderninteriors-win\/1_Interiors\/16x16\/Theme_Sorter\/8_Gym_16x16.png",
+         "image":"8_Gym_16x16.png",
          "imageheight":528,
          "imagewidth":256,
          "margin":0,
          "name":"8_Gym_16x16",
          "spacing":0,
          "tilecount":528,
+         "tileheight":16,
+         "tilewidth":16
+        }, 
+        {
+         "columns":16,
+         "firstgid":11405,
+         "image":"objects.png",
+         "imageheight":16,
+         "imagewidth":256,
+         "margin":0,
+         "name":"objects",
+         "spacing":0,
+         "tilecount":16,
          "tileheight":16,
          "tilewidth":16
         }],
