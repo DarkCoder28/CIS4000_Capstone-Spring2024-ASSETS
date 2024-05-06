@@ -39,7 +39,10 @@
             "tilemap_path": "library_5.5.tmj",
             "tilemap_texture_mappings": [
                 ["Room_Builder_16x16.png", "Room_Builder_16x16.png"],
-                ["Interiors_16x16.png", "Interiors_16x16.png"],
+                ["1_Generic_16x16.png", "1_Generic_16x16.png"],
+                ["5_Classroom_and_library_16x16.png", "5_Classroom_and_library_16x16.png"],
+                ["14_Basement_16x16.png", "14_Basement_16x16.png"],
+                ["8_Gym_16x16.png", "8_Gym_16x16.png"],
 		["objects.png", "objects.png"]
             ],
             "spawn_location": [14,17]
