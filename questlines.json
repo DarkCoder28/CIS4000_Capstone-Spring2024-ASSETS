@@ -60,7 +60,7 @@
       {
         "speaker": "Narrator",
         "dialog": "It looks like Howard needs your help... you can also find him in St. Bernard's",
-        "quest_id": 10,
+        "quest_id": 0,
         "quest_name": "Go meet Howard.",
         "completion": {
           "type": "interact",
@@ -78,7 +78,7 @@
       {
         "speaker": "<name>",
         "dialog": "Wow, I never realized how much I enjoy being the go-to person for help until Howard asked me to find that thumb drive.",
-        "quest_id": 11,
+        "quest_id": 1,
         "quest_name": "Find The Thumb Drive",
         "completion": {
           "type": "interact",
@@ -88,7 +88,7 @@
       {
         "speaker": "<name>",
         "dialog": "Found it! I'll bring it to you immediately.",
-        "quest_id": 12,
+        "quest_id": 2,
         "quest_name": "Take the thumb drive to Howard",
         "completion": {
           "type": "interact",
@@ -97,13 +97,7 @@
       },
       {
         "speaker": "Howard",
-        "dialog": "Excellent work, <name>! This program is crucial for the robot dog’s programming. Thank you for your quick action in retrieving it.",
-        "quest_id": 13,
-        "quest_name": "Howard Receives the Thumb Drive",
-        "completion": {
-          "type": "interact",
-          "who": "howard"
-        }
+        "dialog": "Excellent work, <name>! This program is crucial for the robot dog's programming. Thank you for your quick action in retrieving it."
       }
     ]
   },
@@ -114,7 +108,7 @@
       {
         "speaker": "Narrator",
         "dialog": "It looks like Cindy needs your help again...",
-        "quest_id": 20,
+        "quest_id": 0,
         "quest_name": "Go see Cindy",
         "completion": {
           "type": "interact",
@@ -123,7 +117,7 @@
       },
       {
         "speaker": "Cindy",
-        "dialog": "<name>!, I need your help controlling the dog, it’s not responding to commands! Quickly, I need you to retrieve a translation book from the library. The directions are in Mandarin."
+        "dialog": "<name>!, I need your help controlling the dog, it's not responding to commands! Quickly, I need you to retrieve a translation book from the library. The directions are in Mandarin."
       },
       {
         "speaker": "<name>",
@@ -132,7 +126,7 @@
       {
         "speaker": "<name>",
         "dialog": "Entering the library to find the translation book, I couldn't help but wonder: amidst the rows of shelves, where would I find it?",
-        "quest_id": 21,
+        "quest_id": 1,
         "quest_name": "Find the Translation Book",
         "completion": {
           "type": "interact",
@@ -142,7 +136,7 @@
       {
         "speaker": "<name>",
         "dialog": "Found it! Now, back to Cindy's office.",
-        "quest_id": 22,
+        "quest_id": 2,
         "quest_name": "Take the Book to Cindy",
         "completion": {
           "type": "interact",
@@ -152,7 +146,7 @@
       {
         "speaker": "Cindy",
         "dialog": "Fantastic! You found the book. Give the book to Howard so he can use it to program the robot dog.",
-        "quest_id": 23,
+        "quest_id": 3,
         "quest_name": "Give the book to Howard",
         "completion": {
           "type": "interact",
@@ -168,7 +162,7 @@
       {
         "speaker": "Narrator",
         "dialog": "Someone new needs your help! Go meet Greg in St. Bernard's.",
-        "quest_id": 30,
+        "quest_id": 0,
         "quest_name": "Go meet Greg",
         "completion": { "type": "interact", "who": "greg" }
       },
@@ -183,7 +177,7 @@
       {
         "speaker": "<name>",
         "dialog": "where should I start looking for the parts first?",
-        "quest_id": 31,
+        "quest_id": 1,
         "quest_name": "Find The Four Drone Parts",
         "completion": {
           "type": "interact",
@@ -193,7 +187,7 @@
       {
         "speaker": "<name>",
         "dialog": "I found all the drone parts! I need to take them to Greg ASAP.",
-        "quest_id": 32,
+        "quest_id": 2,
         "quest_name": "Take Drone Parts To Greg",
         "completion": {
           "type": "interact",
@@ -209,7 +203,7 @@
       {
         "speaker": "Greg",
         "dialog": "<name>, Griffin, thanks for your help. Please place the assembled drone on the desk for testing.",
-        "quest_id": 40,
+        "quest_id": 0,
         "quest_name": "Put the drone on Greg's Desk",
         "completion": {
           "type": "interact",
@@ -227,7 +221,7 @@
       {
         "speaker": "<name>",
         "dialog": "Who would of thought programming would be this hard?",
-        "quest_id": 41,
+        "quest_id": 1,
         "quest_name": "Program The Drone",
         "completion": {
           "type": "interact",
@@ -237,7 +231,7 @@
       {
         "speaker": "<name>",
         "dialog": "It's all set, Greg. The program is uploaded, and the drone is ready for its test flight.",
-        "quest_id": 42,
+        "quest_id": 2,
         "quest_name": "Talk to Greg",
         "completion": {
           "type": "interact",
@@ -257,7 +251,7 @@
       {
         "speaker": "Narrator",
         "dialog": "Looks like Cindy is having an emergency! Go help her.",
-        "quest_id": 50,
+        "quest_id": 0,
         "quest_name": "Go see what Cindy's emergency is",
         "completion": { "type": "interact", "who": "cindy" }
       },
@@ -276,7 +270,7 @@
       {
         "speaker": "<name>",
         "dialog": "I'll reach out to Greg right away and get the drone ready for the search.",
-        "quest_id": 51,
+        "quest_id": 1,
         "quest_name": "Talk to Greg",
         "completion": {
           "type": "interact",
@@ -286,7 +280,7 @@
       {
         "speaker": "Greg",
         "dialog": "The drone's camera is live. We'll cover as much ground as possible to maximize our chances of finding the robot dog.",
-        "quest_id": 52,
+        "quest_id": 2,
         "quest_name": "Use the Drone",
         "completion": {
           "type": "interact",
@@ -296,7 +290,7 @@
       {
         "speaker": "<name>",
         "dialog": "Now lets find the robot dog!",
-        "quest_id": 53,
+        "quest_id": 3,
         "quest_name": "Find the Robot Dog",
         "completion": { "type": "interact", "who": "robot_dog_uhall" }
       }
@@ -309,7 +303,7 @@
       {
         "speaker": "Cindy",
         "dialog": "Thank you both so much for your help! I don't know what I would have done without you.",
-        "quest_id": 60,
+        "quest_id": 0,
         "quest_name": "Bring the robot dog to Cindy",
         "completion": {
           "type": "interact",
@@ -327,7 +321,7 @@
       {
         "speaker": "Howard",
         "dialog": "Perfect timing, Griffin! I'll take care of it right away. Thank you for bringing it over.",
-        "quest_id": 61,
+        "quest_id": 1,
         "quest_name": "Bring the dog to Howard",
         "completion": {
           "type": "interact",
@@ -337,7 +331,7 @@
       {
         "speaker": "Howard",
         "dialog": "All set, Griffin! The robot dog should be ready to go. Please let Cindy know.",
-        "quest_id": 62,
+        "quest_id": 2,
         "quest_name": "Bring the dog back to Cindy",
         "completion": {
           "type": "interact",
