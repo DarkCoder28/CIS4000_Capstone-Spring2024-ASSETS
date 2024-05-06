@@ -45,7 +45,7 @@
         "speaker": "Cindy",
         "dialog": "Excellent, <name>! Let's install it and see how our new AI module performs. Thank you for your help!",
         "quest_id": 3,
-        "quest_name": "Cindy Receives the Battery",
+        "quest_name": "Install the battery in the dog",
         "completion": {
           "type": "interact",
           "who": "robot_dog"
