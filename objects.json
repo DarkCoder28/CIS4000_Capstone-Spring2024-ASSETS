@@ -16,8 +16,7 @@
 			"sprite_map": "objects",
 			"tile_id": 2
 		},
-		"position": [35, 3],
-		"relevant_quest_ids": [0,1,2,3,10,11,12,13,20,21,22,23,30,31,32,40,41,42,50,51,52,53,60,61,62]
+		"position": [35, 3]
 	},
 	{
 		"object_id": "howard",
@@ -26,8 +25,7 @@
 			"sprite_map": "objects",
 			"tile_id": 3
 		},
-		"position": [14, 9],
-		"relevant_quest_ids": [0,1,2,3,10,11,12,13,20,21,22,23,30,31,32,40,41,42,50,51,52,53,60,61,62]
+		"position": [14, 9]
 	},
 	{
 		"object_id": "greg",
@@ -36,8 +34,7 @@
 			"sprite_map": "objects",
 			"tile_id": 4
 		},
-		"position": [28, 3],
-		"relevant_quest_ids": [0,1,2,3,10,11,12,13,20,21,22,23,30,31,32,40,41,42,50,51,52,53,60,61,62]
+		"position": [28, 3]
 	},
 	{
 		"object_id": "robot_dog_battery",
